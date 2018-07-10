@@ -298,7 +298,7 @@ if (is_dir($dir)) {
 				echo "$domain/$user_dir$dir$filename \"";				
 				echo 'size=\"50\" onclick=\"select_all(this)\">';
 				
-				echo "&nbsp;<a href=\"delete.?f=$filename\" onclick=\"return confirm('Are you sure you want to delete?')\" >Delete</a>";
+				echo "&nbsp;<a href=\"delete_image.php?f=$filename\" onclick=\"return confirm('Are you sure you want to delete?')\" >Delete</a>";
 				  echo "<p>";  
 				  echo "<TextArea  rows=\"2\" cols=\"70\"><img src='http://$domain/imusic/cover_img/$filename'width='200'></TextArea>"; 
 				    echo "</div><hr><p>";     
